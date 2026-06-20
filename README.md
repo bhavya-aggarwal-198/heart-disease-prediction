@@ -56,25 +56,25 @@ Dataset features include:
 
 ## Project Structure
 
-```text
 Heart-Disease-Prediction/
 │
 ├── app.py
+├── train_model.py
+├── debug_pickle.py
+├── heart.csv
 ├── lr_heart.pkl
 ├── scaler.pkl
 ├── columns.pkl
 ├── requirements.txt
 ├── README.md
-│
-└── dataset/
-```
+└── .gitignore
 
 ## Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/heart-disease-prediction.git
+git clone https://github.com/bhavya-aggarwal-198/heart-disease-prediction.git
 ```
 
 ### Move Into Project Directory
@@ -166,9 +166,11 @@ This application should not be used as a substitute for professional medical adv
 
 ## Author
 
-### Bhavya Bansal
+### Bhavya Aggarwal
 
 Aspiring Software Developer & Machine Learning Enthusiast
+
+GitHub: https://github.com/bhavya-aggarwal-198
 
 ## License
 
